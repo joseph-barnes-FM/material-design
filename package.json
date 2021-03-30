@@ -1,16 +1,15 @@
 {
-  "name": "material-design",
-  "version": "1.0.0",
+  "name": "updated-material-design",
+  "version": "1.0.1",
   "description": "Material Design icons by Google",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joseph-barnes-FM/material-design"
+    "url": "git+https://github.com/joseph-barnes-FM/material-design.git"
   },
   "keywords": [
     "icons",
     "material",
-    "material-design",
     "google"
   ],
   "author": "Material Design Authors",
@@ -31,5 +30,8 @@
     "through2": "^2.0.0",
     "underscore.string": "^3.2.2",
     "vinyl": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
